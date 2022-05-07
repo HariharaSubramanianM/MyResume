@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Hari - Resume</title>
+  
+</head>
+<body>
+    <!-- <h1>MY RESUME!!</h1> -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/HariDP.jpeg' %}">
+                    <hr>
+                    <h4>Hi, I'm Harihara Subramanian</h4>
+                    <p>I love coding, web development, analytical research and collaborating</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body"> 
+                    
+                    <h4>My Personal Profile Statement</h4>
+                    <p>I am a passionate, energetic and organised young professional striving to improve myself everyday in a competitive environment.</p>
+                    <p>I possess strong interpersonal skills and would like to utilize my skills and experience as well as my creative-driven mind with every chance I get.</p>
+                    <ul class="social-links">
+                        <li><a href = "https://github.com/HariharaSubramanianM"><img class="social" src="{% static 'images/github.png' %}" ></a> </li>
+                        <li><a href = "https://www.linkedin.com/in/harihara-subramanian-m-007/"><img class="social" src="{% static 'images/linkedin.png' %}" ></a> </li>
+                        <li><a href = "mailto:vmhariharasubramanian@gmail.com"><img class="social" src="{% static 'images/mail.png' %}" ></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>My Interests</h4>
+                    <p>I have been working on Deep Learning for some time and excited by its prospects and interested in research work in ML/DL.</p>
+                    <p>I have also been working on mini-projects involving both Mobile and Web application development</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>My Learnings</h4>     
+                    <p>
+                        <ul>
+                            <li>Languages: HTML, CSS, JavaScript, Dart</li>
+                            <li>Frameworks: Django, Flutter</li>
+                            <li>Programming: Python, Java, C++</li>
+                            <li>Other Domain Konowledge: Deep Learning</li>
+                        </ul>
+                    </p>         
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h4>My Short Term Goals</h4>
+                    <ul>
+                        <li>Work on 1 Mini Project every semester</li>
+                        <li>Work towards Research Work publication in a Journal</li>
+                        <li>Achieve Top Rankings/ratings on top coding platforms</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">     
+                    <h4>My Certifications</h4>
+                    <ul>
+                        <li></li>
+                    </ul>        
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+</body>
+</html>
